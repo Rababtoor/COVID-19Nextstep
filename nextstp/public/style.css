@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(234, 238, 213);
+}
+.head{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.form{
+    text-align: center;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 10px;
+}
+.online{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(27, 233, 8);
+}
+.card-deck{
+    width: 100%;
+}
+.img{
+    float: right;
+}
+.para{
+    color: white;
+}
+.list{
+    text-align: justify;
+}
+.footer{
+    margin-top: 50px;
+}
+a{
+    color: slateblue;
+    font-size: 20px;
+}
+a:hover{
+    color: tan;
+}
+.bg-primary {
+    background-color: #bd894f!important;
+}
+.bg-info{
+    background-color: rgb(165, 95, 138)!important;
+}
+.bg-warning{
+    background-color: rgb(92, 221, 146)!important;
+}
+.bg-success{
+    background-color: teal!important;
+}
+.bg-danger{
+    background-color: rgb(240, 200, 128)!important;
+}
+
+@media (max-width: 650px){
+    div.card-deck{
+        width:100%;
+    }
+    div.card-columns {
+        width:105%;
+
+    }
+    div.col-sm-6 {
+        display: block;
+    }
+    .head{
+        text-align: left;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    nav {
+        width: 100%;
+    }
+    ul.navbar-nav{
+        display: inline-block;
+    }
+    h2 p {
+        width: 100%;
+    }
+        div.row{
+            width: 100%;
+        }
+        div.container{
+            width: 100%;
+        }
+    }
+   @media (max-width: 768px){
+       h3{
+        color: rgb(54, 204, 16);
+       }
+       h4{
+        color: rgb(54, 204, 16);
+       }
+       ul li{
+           text-align: center;
+           color: rgb(54, 204, 16);
+       }
+       div.card-deck{
+        width:100%;
+    }
+   }
